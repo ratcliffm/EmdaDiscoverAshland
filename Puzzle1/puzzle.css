@@ -101,19 +101,9 @@ body {
     position: absolute;
 }
 
-/* next button */
-/* #nextButton {
-    position: absolute;
-    bottom:0;
-    left:0;
-    right:0;
+#next {
     height: 100px;
-    width: 400px;
+    width: 2px;
+    bottom: 250px;
+    left: 1200px;
 }
-
-#imgNext {
-    background: url(nextPuzzle.png) no-repeat;
-    height: 100px;
-    width: 400px;
-    position: right;
-} */
