@@ -4,7 +4,7 @@ var columns = 3;
 
 var currTile;
 var otherTile; //blank tile
-
+let mySound = new Audio('../sound/slide.wav');//this is the sound being added for use
 var turns = 0;
 
 // var imgOrder = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -50,6 +50,7 @@ function dragLeave() {
 }
 
 function dragDrop() {
+    mySound.play(); //this should add a slide sound
     otherTile = this; //this refers to the img tile being dropped on
 }
 
