@@ -14,65 +14,6 @@ body {
     padding-bottom: 50px;
 }
 
-#girl {
-    position: relative;
-    height: 120px;
-    width: 240px;
-    /* margin-left: 15%;
-    margin-top: auto; */
-    left: 2px; 
-    top: 2px;
-    /* display: flex;
-    flex-wrap: wrap; */
-}
-
-#cloud2 {
-    position: relative;
-    height: 120px;
-    width: 240px;
-    margin-left: 15%;
-    margin-top: -500%;
-} 
-
-#cloud3 {
-    position: relative;
-    height: 120px;
-    width: 240px;
-    margin-left: 15%;
-    margin-top: auto;
-    display: flex;
-    flex-wrap: wrap;
-} 
-
-#cloud4 {
-    position: relative;
-    height: 120px;
-    width: 240px;
-    margin-left: 70%;
-    margin-top: auto;
-    display: flex;
-    flex-wrap: wrap;
-} 
-
-#cloud5 {
-    position: relative;
-    height: 120px;
-    width: 240px;
-    margin-left: 70%;
-    margin-top: auto;
-    display: flex;
-    flex-wrap: wrap;
-} 
-
-#cloud6 {
-    position: relative;
-    height: 120px;
-    width: 240px;
-    margin-left: 70%;
-    margin-top: auto;
-    display: flex;
-    flex-wrap: wrap;
-} 
 
 #board {
     width: 360px;
@@ -93,9 +34,9 @@ body {
 /* incldue CSS for clouds to be at the bottom of the page */
 #footer {
     position:relative;
-    bottom:0;
+    /* bottom:0;
     left:0;
-    right:0;
+    right:0; */
     width:100%;
     height:100px;
 }
@@ -110,13 +51,19 @@ body {
     background: url(../images/footerImage.png) repeat;
     width: 100%;
     height: 300px;
-    position: absolute;
+    position: relative;
 }
 
 #next {
     position:relative;
-    height: 100px;
+    /* height: 100px;
     width: 2px;
     bottom: 250px;
-    left: 1200px;
+    left: 1200px; */
+}
+
+#audio {
+    position:fixed;
+    bottom: 5px; 
+    right: 5px; 
 }
