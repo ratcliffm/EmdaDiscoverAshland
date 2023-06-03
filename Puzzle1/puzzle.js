@@ -85,6 +85,9 @@ function dragEnd() {
 
         turns += 1;
         document.getElementById("turns").innerText = turns;
+        if (imgOrder == ["1", "2", "3", "4", "5", "6", "7", "8", "9"]){
+            confetti();
+        }
     }
 
 

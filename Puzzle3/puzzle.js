@@ -8,7 +8,7 @@ let mySound = new Audio('../sound/slide.wav');//this is the sound being added fo
 var turns = 0;
 
 // var imgOrder = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
-var imgOrder = ["4", "3", "8", "5", "1", "6", "7", "9", "2"];
+var imgOrder = ["4", "1", "8", "5", "3", "6", "7", "9", "2"];
 
 window.onload = function() {
     for (let r=0; r < rows; r++) {
