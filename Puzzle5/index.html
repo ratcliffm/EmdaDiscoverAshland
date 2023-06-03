@@ -5,19 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Slide Puzzle</title>
-        <link rel="stylesheet" href="puzzle.css">
+        <link rel="stylesheet" href="../puzzle.css">
         <script src="puzzle.js"></script>
         <link rel="icon" href="../images/favicon.ico" />
     </head>
 
     <body>
         <img id="title" src="../images/logo.png">
-        <img id="girl" src="../images/girl.png">
-        <img id="girl2" src="../images/girl2.png">
-        <img id="girl3" src="../images/girl3.png">
-        <img id="girl4" src="../images/girl4.png">
-        <img id="girl5" src="../images/girl5.png">
-        <img id="cloud6" src="../images/cloud6.png">
         <div id="board">
         </div>
         
@@ -35,10 +29,83 @@
         ​<div id="nextButton">
             <div id="imgNext"></div>
         </div>
-        <audio controls>
+        <audio controls id="audio">
             <source src="..\sound\Happy Summer Journey-Main-version-yoyosound.com.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
+
+                <!-- First girl -->
+                <div style="position:relative;
+                width:60%;
+                height:150px;">
+                <img id="girl" src="../images/girl.png"
+                style="position:absolute;
+                height: 120px;
+                width: 240px;
+                bottom: 450px;
+                left: 170px;">
+            </div>
+    
+                <!-- First cloud -->
+            <div style="position:relative;
+                width:60%;
+                height:150px;">
+                <img src="../images/girl2.png"
+                style="position:absolute;
+                height: 120px;
+                width: 240px;
+                bottom: 780px;
+                left: 170px;">
+            </div>
+    
+                <!-- second cloud -->
+                <div style="position:relative;
+                width:60%;
+                height:150px;">
+                <img src="../images/girl3.png"
+                style="position:absolute;
+                height: 120px;
+                width: 240px;
+                bottom: 1100px;
+                left: 170px;">
+            </div>
+    
+                <!-- third cloud -->
+                <div style="position:relative;
+                width:60%;
+                height:150px;">
+                <img src="../images/girl4.png"
+                style="position:absolute;
+                height: 120px;
+                width: 240px;
+                bottom: 1060px;
+                left: 1200px;">
+            </div>
+    
+                <!-- third cloud -->
+                <div style="position:relative;
+                width:60%;
+                height:150px;">
+                <img src="../images/girl5.png"
+                style="position:absolute;
+                height: 120px;
+                width: 240px;
+                bottom: 1395px;
+                left: 1200px;">
+            </div>
+    
+                <!-- third cloud -->
+                <div style="position:relative;
+                width:60%;
+                height:150px;">
+                <img src="../images/cloud6.png"
+                style="position:absolute;
+                height: 120px;
+                width: 240px;
+                bottom: 1200px;
+                left: 1200px;">
+            </div>
+    
 
     </body>
 </html>
